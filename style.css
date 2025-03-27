@@ -81,16 +81,16 @@ body{
 }
 .popupBox{
     background-color: rgb(252, 102, 244);
-    width: 350px;
+    width: 30%;
     padding: 20px;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
     position:fixed;
-    top: 20%;
-    left: 36.5%;
-    z-index: 2;
-    display: none;
+    top: 19%;
+    left: 35%;
+    z-index:2;
+    display:none;
 }
 .popupBox input{
     border: none;
