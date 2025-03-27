@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Sky</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Book Sky</h1>
+    </div>
+    <hr>
+    <div class="body">
+        <div class="box1">
+            <h2>Example</h2>
+            <small>Madhan</small><hr>
+            <p>Hello i am makinthan</p>
+            <button onclick="delete_example()">Delete</button>
+        </div>
+        
+    </div>
+    
+    </div>
+    <div class="buttonBox">
+        <button class="addButton" onclick="show()">+</button>
+    </div>
+    <div class="overlayBox"></div>
+    <div class="popupBox">
+        <h2>Add Book</h2>
+        <input id="ititle" type="text" name="bookTitle" placeholder="Book Title">
+        <input id="iauthor" type="text" name="bookAuthor" placeholder="Book Author">
+        <textarea id="idescription" type="text" name="shortDescription" placeholder="Short Description...(Maximum letters 200)" maxlength="200"></textarea><br>
+        <button onclick="add()">ADD</button>
+        <button onclick="cancel()">CANCEL</button>
+    </div>
+    <script src="book.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.header{
+    width: 100%;
+    background-color: rgb(254, 105, 105);
+    padding: 4px;
+    border-radius: 5px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(109, 105, 105);
+}
+.box1{
+    margin-top:50px;
+    margin-left:105px;
+    margin: 20px;
+    width:20%;
+    height: 260px;
+    padding: 20px;
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.ptag {
+    
+    word-wrap: break-word; 
+    max-width: 100%; /* Ensures it does not exceed the container */
+}
+
+.box1 h2{
+    color: rgb(253, 70, 70);
+}
+.box1 button{
+    background-color:rgb(253, 70, 70);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+}
+.addButton{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 50%;
+    position: fixed;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(253, 70, 70);
+    bottom:20px;
+    right:20px;
+    cursor: pointer;
+}
+.buttonBox{
+    display: flex;
+    justify-content: flex-end;
+}
+.overlayBox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top:0px;
+    right:0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+    
+}
+.popupBox{
+    background-color: rgb(252, 102, 244);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position:fixed;
+    top: 20%;
+    left: 36.5%;
+    z-index: 2;
+    display: none;
+}
+.popupBox input{
+    border: none;
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: solid black 2px;
+}
+.popupBox textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: solid black 2px;
+}
+.popupBox ::placeholder{
+    color: black;
+}
+.popupBox input:focus{
+    outline: none;
+}
+.popupBox textarea:focus{
+    outline: none;
+}
+.popupBox button{
+    background-color: rgb(138, 253, 253);
+    border-radius: 10px;
+    border: solid black 2px;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
