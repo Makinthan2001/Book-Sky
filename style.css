@@ -3,7 +3,7 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: 100hv;
     background-color: rgb(254, 105, 105);
     padding: 10px;
     border-radius: 5px;
