@@ -23,8 +23,8 @@ function add(){
     var box=document.createElement("div")
     box.className="box1"
 
-    box.innerHTML=`<h2>${_ititle.value}</h2>
-                    <small>${_iauthor.value}</small>
+    box.innerHTML=`<h2 class="h2tag">${_ititle.value}</h2>
+                    <small class="smalltag">${_iauthor.value}</small>
                     <hr>
                     <p class="ptag">${_idescription.value}</p>
                     <button onclick="this.parentElement.remove()">Delete</button>`

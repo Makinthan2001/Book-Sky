@@ -1,10 +1,11 @@
-*{
+body{
     margin: 0;
 }
+
 .header{
     width: 100%;
     background-color: rgb(254, 105, 105);
-    padding: 4px;
+    padding: 10px;
     border-radius: 5px;
     top: 0px;
     left: 0px;
@@ -14,8 +15,7 @@
 }
 .box1{
     margin-top:50px;
-    margin-left:105px;
-    margin: 20px;
+    margin-left:20.5px;
     width:20%;
     height: 260px;
     padding: 20px;
@@ -29,10 +29,17 @@
     vertical-align: top;
     position: relative;
 }
-.ptag {
-    
+.ptag { 
     word-wrap: break-word; 
-    max-width: 100%; /* Ensures it does not exceed the container */
+    max-width: 100%; 
+}
+.h2tag{
+    word-wrap: break-word; 
+    max-width: 100%; 
+}
+.smalltag{
+    word-wrap: break-word; 
+    max-width: 100%; 
 }
 
 .box1 h2{
