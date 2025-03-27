@@ -27,16 +27,13 @@ body{
     position: relative;
 }
 .ptag { 
-    word-wrap: break-word; 
-    max-width: 100%; 
+    word-wrap: break-word;  
 }
 .h2tag{
     word-wrap: break-word; 
-    max-width: 100%; 
 }
 .smalltag{
     word-wrap: break-word; 
-    max-width: 100%; 
 }
 
 .box1 h2{
